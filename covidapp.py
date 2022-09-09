@@ -4,7 +4,7 @@ import requests
 from flask import Flask,render_template,request
 import os
 app=Flask(__name__)
-
+#
 @app.route("/",methods=['GET','POST'])
 def covid():
     if request.method == 'POST':
